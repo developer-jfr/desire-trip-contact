@@ -325,10 +325,28 @@ body {
   background: transparent;
 }
 
+
+/*Added for browser compatibility*/
+[hidden] {
+  display: none;
+}
+
 .contact-us input:focus ~ .contact-us {
   border-bottom: 10px solid ;
 }
 
+
+.contact-textarea {
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  width: 100%;
+  height: 80px;
+  resize: none;
+  background: #D8D8D8;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
 
 
 .select2-container .select2-selection--multiple {
