@@ -98,51 +98,14 @@ body {
 
 /* ================= Landing Start ==================== */
 
-.disabled-mute {
-  pointer-events: none;
+
+
+.main-landing {
+  background: url('../images/landing-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-.video-control {
-  align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-  gap: 10px;
-  position: absolute;
-  bottom: 2rem;
-  left: 1rem;
-}
-
-.video-control img:nth-child(2) {
-  width: 20px;
-  height: 20px;
-}
-
-.video-control img:nth-child(1) {
-  width: 40px;
-  height: 40px;
-}
-
-#muted {
-  cursor: pointer;
-}
-
-
-#play-btn {
-  transition: .5s;
-  width: 70px;
-  cursor: pointer;
-}
-
-#play-btn:hover {
-  transform: scale(1.05);
-}
-
-.selectextShadowHost {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-
 
 
 .landing {
@@ -413,6 +376,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   display: flex;
+  align-items: center;
 }
 
 .tab-labels span {
@@ -483,6 +447,20 @@ padding-block: 10px;
 border-radius: 4px;
 width: 250px;
 }
+
+
+.select-currency select {
+   border: none;
+   outline: none;
+   background: transparent;
+   width: 100%;
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+
 
 .contatc-btn-group-sc button:first-child {
   background: #E58620;
@@ -874,10 +852,4 @@ line-height: 140%;
   .footer-social div p {
     font-size: 12px;
   }
-
-  .video-control {
-    left: 0;
-    bottom: 1rem;
-  }
-
 }
