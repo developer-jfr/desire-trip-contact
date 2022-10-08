@@ -317,12 +317,18 @@ body {
   width: 100%;
 }
 
+
 .contact-us input {
   width: 100%;
   border: none;
   outline: none;
   background: transparent;
 }
+
+.contact-us input:focus ~ .contact-us {
+  border-bottom: 10px solid ;
+}
+
 
 
 .select2-container .select2-selection--multiple {
