@@ -362,7 +362,8 @@ body {
 
 .contact-img {
   width: 50%;
-  margin-top: -50px;
+  position: relative;
+  top: -120px;
 }
 
 .tabs {
