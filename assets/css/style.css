@@ -717,6 +717,11 @@ line-height: 140%;
     padding-inline: 4%;
 
   }
+
+  .contact-img {
+    top: -200px;
+    width: 50%;
+  }
 }
 
 
@@ -735,6 +740,15 @@ line-height: 140%;
 
   .landing-content div p {
     font-size: 18px;
+  }
+
+  .contact-us {
+    gap: 40px;
+  }
+
+  .contact-img {
+    top: -300px;
+    width:55%;
   }
 }
 
