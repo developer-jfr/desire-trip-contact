@@ -813,17 +813,15 @@ line-height: 140%;
   .reach-us {
     padding-left: 0;
     padding-right: 0;
-    padding-inline: 2%;
+    padding-inline: 5%;
     gap: 20px;
     padding-top: 100px;
+    flex-direction: column;
+   align-items: flex-start; 
   }
 
   .reach-us h2 {
     font-size: 30px;
-  }
-
-  .reach-us-social span {
-    font-size: 14px;
   }
 
   .contact-form-content h2 {
