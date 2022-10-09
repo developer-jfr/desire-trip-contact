@@ -363,7 +363,7 @@ body {
 .contact-img {
   width: 50%;
   position: relative;
-  top: -90px;
+  top: -130px;
 }
 
 .tabs {
@@ -560,11 +560,12 @@ line-height: 140%;
 
 .reach-us {
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   padding-left: 5%;
   padding-right: 20%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: #000;
 }
 
@@ -590,7 +591,7 @@ line-height: 140%;
 }
 
 
-.reach-us div span {
+.reach-us-social span {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 24px;
@@ -599,6 +600,20 @@ line-height: 140%;
 
 }
 
+
+.email-us {
+  text-transform: uppercase;
+  color: #000 !important;
+  text-decoration: none;
+  padding: 5px 20px;
+  background: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.email-us span {
+  color: #E58620;
+}
 
 /* ================== Reach Us End ========================== */
 
@@ -719,7 +734,7 @@ line-height: 140%;
   }
 
   .contact-img {
-    top: -200px;
+    top: -280px;
     width: 50%;
   }
 }
@@ -753,7 +768,7 @@ line-height: 140%;
 }
 
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
   .arrows-group {
     bottom: -80px;
     left: 5%;
@@ -810,7 +825,7 @@ line-height: 140%;
     font-size: 30px;
   }
 
-  .reach-us div span {
+  .reach-us-social span {
     font-size: 14px;
   }
 
