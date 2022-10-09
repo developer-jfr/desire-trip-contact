@@ -363,7 +363,7 @@ body {
 .contact-img {
   width: 50%;
   position: relative;
-  top: -130px;
+  top: -180px;
 }
 
 .tabs {
@@ -603,17 +603,14 @@ line-height: 140%;
 
 .email-us {
   text-transform: uppercase;
-  color: #000 !important;
+  color: #fff !important;
   text-decoration: none;
   padding: 5px 20px;
-  background: white;
+  background: #E58620;
   font-weight: 500;
   font-size: 20px;
 }
 
-.email-us span {
-  color: #E58620;
-}
 
 /* ================== Reach Us End ========================== */
 
